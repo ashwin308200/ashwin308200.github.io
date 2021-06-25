@@ -321,9 +321,9 @@
                 <h2 class="section-title">Contact</h2>
                 <div class="contact__container bd-grid">
                     <form id ="myForm" action="#" class="contact__form">
-                        <input type="text" name="Name" placeholder="Name" class="contact__input">
-                        <input type="email" name="Email" placeholder="Email" class="contact__input">
-                        <textarea name="Message" placeholder="Enter your Message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input required type="text" name="Name" placeholder="Name" class="contact__input">
+                        <input required type="email" name="Email" placeholder="Email" class="contact__input">
+                        <textarea required name="Message" placeholder="Enter your Message" id="" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="hidden" id='currentDateTime' name="DateTime" value='' > 
                         <input type="button" value="Send" onclick='SubForm()' class="contact__button button">
                     </form>
