@@ -84,7 +84,7 @@ sr.reveal('.familiar__subtitle',{interval:200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 50}); 
 var typed = new Typed(".typing",{
-  strings: ["Python Programmer","Azure Fundamentals","Google Cloud Platform","Quick Learner","Solution-Oriented","Governor's Scout"],
+  strings: ["Python Programmer","Microsoft Certified","Google Cloud Platform","Quick Learner","Solution-Oriented","Governor's Scout"],
   typeSpeed: 100,
   backSpeed: 70,
   loop: true
