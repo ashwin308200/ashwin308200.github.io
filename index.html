@@ -14,6 +14,10 @@
 	    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-53E1MN1TWC"></script>
 <script>
+	
+
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload= onloadTurnstileCallback" async defer></script>
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -364,6 +368,10 @@
                         <input required type="email" name="Email" placeholder="Email" class="contact__input">
                         <textarea required name="Message" placeholder="Enter your Message" id="" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="hidden" id='currentDateTime' name="DateTime" value='' > 
+			
+
+			<div class="cf-turnstile" data-sitekey="0x4AAAAAAAAq4EYuaZSCAobg" data-callback="javascriptCallback"></div>
+
                         <input type="button" value="Send" onclick='SubForm()' class="contact__button button">
                     </form>
                 </div>
